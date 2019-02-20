@@ -1,0 +1,264 @@
+.header{
+    height: 120px;
+    width: 1046px;
+    margin: 0 auto;
+}
+.clear_fix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header_left{
+    float: left;
+    line-height: 120px;
+}
+.header_right>div{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header_right{
+    float: right;
+    position: relative;
+    height: 120px;
+}
+.header_right ul{
+    margin-top: 82px;
+}
+.header_right ul a{
+    float: left;
+    line-height: 13px;
+}
+.header_right ul a li{
+    border-right: 1px solid #000000;
+    font-size: 15px;
+    height: 13px;
+    padding: 0 25px;
+    font-weight: bold;
+}
+.header_right ul a li:hover{
+    color: #000;
+}
+.header_right ul a:last-child li{
+    border-right: none;
+}
+.header_right ul a:nth-child(3) li{
+    border-left: 1px solid #000000;
+}
+.banner{
+    min-width: 1080px;
+}
+.banner_wrap{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.banner_wrap .banner_img{
+    height: 100%;
+    width: 200%;
+    margin: 0 auto;
+
+}
+.banner_wrap .banner_img li{
+    float: left;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+.banner_wrap .banner_img li img{
+    width: 100%;
+    height:100%
+}
+.banner_left{
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    background: #444;
+
+
+}
+.banner_left img {
+    width: 100%;
+}
+.banner_right{
+    height: 71px;
+    width: 71px;
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    background: #444;
+
+}
+.banner_right img {
+    width: 100%;
+}
+.header_right ul a .move_list{
+    position: relative;
+    padding-bottom: 25px;
+    border-right: none;
+
+}
+.move_list .show_list{
+    display: none;
+    z-index: 100;
+    position: absolute;
+    top: -56px;
+    left: 0 ;
+    width: 100%;
+    background: #333;
+    text-align: center;
+
+
+}
+.move_list .show_list li{
+    padding: 10px 0;
+    width: 114px;
+    color: #fff;
+    text-align: center;
+}
+.move_list .show_list li:hover{
+    background: orangered;
+    color: #fff;
+}
+.move_list:hover .show_list{
+    display: block;
+}
+.content_one{
+    position: relative;
+    max-width: 1046px;
+    margin: 0 auto;
+    height: 260px;
+}
+.content_one img{
+    padding: 60px 10px;
+    width: 182px;
+    height: 130px;
+}
+.content_one .white_img{
+    position: relative;
+    bottom: 250px;
+    opacity: 0;
+}
+.content_one .white_img:hover{
+ opacity: 1;
+}
+.content_two{
+    width: 100%;
+    background: gainsboro;
+    text-align: center;
+    height: 609px;
+}
+.content_header{
+    width: 1040px;
+    margin: 0 auto;
+}
+.content_header div:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.content_header div span{
+    color: #666;
+    font-size: 13px;
+}
+.content_header div:nth-child(3){
+  padding-bottom: 40px;
+}
+.mid{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.mid img{
+    padding: 5px 5px 40px 5px;
+}
+.mid .bottom_img{
+    position: relative;
+    bottom: 370px;
+}
+.mid img:hover{
+    opacity: 0;
+}
+.content_three{
+    width: 100%;
+    height: 505px;
+    background: url("../img/content_three.png") no-repeat;
+    background-position: center center;
+
+}
+.three_wrap{
+    text-align: center;
+}
+.three_wrap div:nth-child(1){
+    padding-top: 138px;
+}
+.three_wrap span{
+    color: #666;
+    font-size: 13px;
+    font-family: 微软雅黑;
+    display: block;
+}
+.three_wrap div:nth-child(2){
+    margin-top: 50px;
+
+}
+.bottom_text span:first-child{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+.three_wrap .bottom_text span{
+    font-size: 16px;
+    color: #000;
+    font-family: SimSun;
+
+}
+.bottom_text span:nth-child(3){
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+.top_text span:first-child{
+    font-size: 16px;
+}
+.four_wrap{
+    text-align: center;
+    padding-bottom: 120px;
+}
+.four_wrap img{
+    margin-bottom: 40px;
+}
+.four_wrap>div img{
+    margin-bottom: 4px;
+}
+.footer{
+    background: #333;
+    text-align: right;
+}
+.footer_wrap{
+    width: 1040px;
+    margin: 0 auto;
+    padding: 26px 0 32px 0;
+}
+.footer_wrap img{
+    width: 125px;
+    height: 125px;
+}
+.footer_text span{
+    font-family: SimSun;
+    font-size: 13px;
+    color: #999;
+}
+.footer_text span:last-child{
+    line-height: 24px;
+    text-align: right;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 110px;
+}
+.footer_text span:nth-child(4){
+    margin: 0 10px;
+}

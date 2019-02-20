@@ -1,0 +1,67 @@
+html, body, div, ul, li, img, a, p, h1, form, input {
+    margin: 0;
+    padding: 0;
+    /*设置盒模型*/
+    box-sizing: border-box;
+    /*去除移动端点击高亮的效果*/
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: '微软雅黑', sans-serif;
+    font-size: 13px;
+}
+
+a, 
+a:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    /*清除文本框获取焦点时的阴影*/
+    outline: none;
+    /*去除边框*/
+    border: none;
+    /*重新设置边框*/
+    border: 1px solid #ccc;
+}
+
+/*新样式*/
+.f_left {
+    float: left;
+}
+
+.f_left {
+    float: right;
+}
+
+.m_left10 {
+    margin-left: 10px;
+}
+
+.m_right10 {
+    margin-right: 10px;
+}
+
+.m_top10 {
+    margin-top: 10px;
+}
+
+.m_bottom10 {
+    margin-bottom: 10px;
+}
+
+.clearfix::after,
+.clearfix::before {
+    display: block;
+    content: '';
+    height: 0;
+    line-height: 0px;
+    clear: both;
+    visibility: hidden;
+}
